@@ -15,6 +15,8 @@
 		264BD940241FFF1D00A264C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264BD93E241FFF1D00A264C7 /* Main.storyboard */; };
 		264BD942241FFF1E00A264C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 264BD941241FFF1E00A264C7 /* Assets.xcassets */; };
 		264BD945241FFF1E00A264C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264BD943241FFF1E00A264C7 /* LaunchScreen.storyboard */; };
+		264BD94E24202A5A00A264C7 /* LLPIXEL3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 264BD94D24202A5A00A264C7 /* LLPIXEL3.ttf */; };
+		264BD950242034D600A264C7 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264BD94F242034D600A264C7 /* MenuVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		264BD941241FFF1E00A264C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		264BD944241FFF1E00A264C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		264BD946241FFF1E00A264C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		264BD94D24202A5A00A264C7 /* LLPIXEL3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LLPIXEL3.ttf; sourceTree = "<group>"; };
+		264BD94F242034D600A264C7 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,12 +66,14 @@
 			children = (
 				264BD934241FFF1D00A264C7 /* AppDelegate.swift */,
 				264BD936241FFF1D00A264C7 /* GameScene.sks */,
-				264BD938241FFF1D00A264C7 /* Actions.sks */,
 				264BD93A241FFF1D00A264C7 /* GameScene.swift */,
 				264BD93C241FFF1D00A264C7 /* GameViewController.swift */,
 				264BD93E241FFF1D00A264C7 /* Main.storyboard */,
+				264BD94F242034D600A264C7 /* MenuVC.swift */,
 				264BD941241FFF1E00A264C7 /* Assets.xcassets */,
 				264BD943241FFF1E00A264C7 /* LaunchScreen.storyboard */,
+				264BD94D24202A5A00A264C7 /* LLPIXEL3.ttf */,
+				264BD938241FFF1D00A264C7 /* Actions.sks */,
 				264BD946241FFF1E00A264C7 /* Info.plist */,
 			);
 			path = PongGG;
@@ -132,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				264BD940241FFF1D00A264C7 /* Main.storyboard in Resources */,
+				264BD94E24202A5A00A264C7 /* LLPIXEL3.ttf in Resources */,
 				264BD937241FFF1D00A264C7 /* GameScene.sks in Resources */,
 				264BD942241FFF1E00A264C7 /* Assets.xcassets in Resources */,
 				264BD945241FFF1E00A264C7 /* LaunchScreen.storyboard in Resources */,
@@ -147,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				264BD93B241FFF1D00A264C7 /* GameScene.swift in Sources */,
+				264BD950242034D600A264C7 /* MenuVC.swift in Sources */,
 				264BD93D241FFF1D00A264C7 /* GameViewController.swift in Sources */,
 				264BD935241FFF1D00A264C7 /* AppDelegate.swift in Sources */,
 			);
@@ -293,12 +301,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Z8F82873G;
 				INFOPLIST_FILE = PongGG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cvtc.edu.PongGG;
+				PRODUCT_BUNDLE_IDENTIFIER = cvtc.edu.PongGG1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,6 +319,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Z8F82873G;
 				INFOPLIST_FILE = PongGG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
